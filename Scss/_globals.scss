@@ -20,8 +20,20 @@ body{
     font-size: $font-medium;
     color: $grayishBlue;
     font-weight: 300;
+
+    &.noscroll{
+        overflow: hidden;
+    }
 }
 
+// Spacing
+.container{
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
+
+// flexbox
 .flex{
     display:flex;
 
