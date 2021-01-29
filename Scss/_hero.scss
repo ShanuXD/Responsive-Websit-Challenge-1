@@ -83,21 +83,6 @@
             order:1;
             text-align: left;
         }
-        h1{
-            font-weight: 300;
-            font-size: 3.7rem;
-            line-height: 1.2;
-            color: $darkBlue;
-            margin-bottom: 2.4rem;
-
-            @include breakpoint-up(large){
-                font-size: $font-xlarge;
-            }
-        }
-        p{
-            line-height: 1.5;
-            margin-bottom: 3.6rem;
-        }
-
+        
     }
 }
