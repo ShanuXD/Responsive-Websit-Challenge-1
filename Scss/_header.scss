@@ -113,15 +113,4 @@
         }
     }
 
-    &__btn{
-        font-size: $font-small;
-        color: $white;
-
-        transition: all 300ms ease-in;
-
-        &:hover{
-            filter: brightness(110%);
-        }
-
-    }
 }

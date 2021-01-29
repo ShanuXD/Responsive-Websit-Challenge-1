@@ -21,6 +21,10 @@ body{
     color: $grayishBlue;
     font-weight: 300;
 
+    @include breakpoint-up(large){
+        font-size:$font-large;
+    }
+
     &.noscroll{
         overflow: hidden;
     }
@@ -28,8 +32,40 @@ body{
 
 // Spacing
 .container{
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
+
+    max-width: 111.3rem;
+    margin: 0 auto;
+
+    &__p-all{
+        padding-top: 3.6rem;
+        padding-right: 2.4rem;
+        padding-bottom: 3.6rem;
+        padding-left: 2.4rem;
+    }
+    &__p-x{
+        padding-right: 2.4rem;
+        padding-left: 2.4rem;
+    }
+    &__p-y{
+        padding-top: 3.6rem;
+        padding-bottom: 3.6rem;
+    }
+    &__p-t{
+        padding-top: 3.6rem; 
+    }
+    &__p-r{
+        padding-right: 2.4rem;
+    }
+    &__p-b{
+        padding-top: 3.6rem; 
+    }
+    &__p-l{
+        padding-top: 2.4rem; 
+    }
+    
+    
+    
+    
 }
 
 
@@ -49,6 +85,7 @@ body{
 }
 
 .btn{
+    display: inline-block;
     padding: 1.3rem 3rem;
     border-radius: 25px;
     cursor: pointer;
@@ -56,6 +93,13 @@ body{
     border: none;
     color: $white;
     font-weight: 400;
+    font-size: $font-small;
+    color: $white;
+    transition: all 300ms ease-in;
+    &:hover{
+        filter: brightness(110%);
+    }
+
 }
 
 //Visibility
