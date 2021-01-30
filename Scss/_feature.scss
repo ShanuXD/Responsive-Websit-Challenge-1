@@ -25,7 +25,6 @@
         }
     }
     &__item{
-        border:  2px solid rebeccapurple;
         padding: 1.5rem;
 
         @include breakpoint-up(medium){
