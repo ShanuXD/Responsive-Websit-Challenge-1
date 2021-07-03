@@ -7,13 +7,11 @@
         text-align: left;
     }
 
-
     &__intro{
         margin-bottom: 6rem;
         @include breakpoint-up(large){
             width: 68%;
         }
-
     }
 
     &__grid{
